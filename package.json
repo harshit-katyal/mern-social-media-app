@@ -1,0 +1,47 @@
+{
+  "name": "social-media-udemy-course",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Inder Singh",
+    "email": "dealWithInder@gmail.com",
+    "url": "https://www.instagram.com/_inder1"
+  },
+  "repository": "https://github.com/inderrr/social-media-udemy-course.git",
+  "homepage": "https://www.udemy.com/course/mernstack-nextjs-withsocketio/?referralCode=A31CAC3FD91000489D0A",
+  "license": "See License in LICENSE",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "@artsy/fresnel": "^1.2.2",
+    "@aws-sdk/client-ses": "^3.95.0",
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.0",
+    "dotenv": "14.2.0",
+    "express": "^4.17.3",
+    "js-cookie": "3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.11",
+    "next": "^12.1.5",
+    "nodemailer": "6.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.16",
+    "nookies": "^2.5.2",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-cropper": "^2.1.8",
+    "react-dom": "17.0.2",
+    "react-infinite-scroll-component": "6.1.0",
+    "react-toastify": "8.1.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.0",
+    "socket.io": "^4.4.1",
+    "socket.io-client": "^4.4.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
+  }
+}
