@@ -7,9 +7,7 @@
     "email": "dealWithInder@gmail.com",
     "url": "https://www.instagram.com/_inder1"
   },
-  "repository": "https://github.com/inderrr/social-media-udemy-course.git",
-  "homepage": "https://www.udemy.com/course/mernstack-nextjs-withsocketio/?referralCode=A31CAC3FD91000489D0A",
-  "license": "See License in LICENSE",
+  "repository": "https://github.com/harshit-katyal/mern-social-media-app",
   "scripts": {
     "dev": "nodemon server.js",
     "build": "next build",
